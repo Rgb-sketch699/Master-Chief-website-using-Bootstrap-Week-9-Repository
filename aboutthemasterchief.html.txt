@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+      div{
+          border-style: solid;
+          border-color: black;
+          padding: 5px;
+          margin: 5px;
+      }
+  </style>
+</head>
+<body class="container"> 
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Master Chief</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutthemasterchief.html">About The Master Chief</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="requestfurtherinformation.html">Request Further Information</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mjolnir.html">Mjolnir</a></li>
+                  <li><a class="dropdown-item" href="cortana.html">Cortana</a></li>
+                  <li><a class="dropdown-item" href="UNSC.html">UNSC</a></li>
+                  <li><a class="dropdown-item" href="FormTest.html">Form Test</a></li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <img height="330px" src="https://www.denofgeek.com/wp-content/uploads/2022/03/Halo-Master-Chief-Helmet-Off.jpg?fit=1920%2C1080" alt="Battle-worn Halo series Master Chief.">
+          <h3>Master Chief, also known by his official alias, Master Chief Petty Officer John-117 is a Spartan-II commando of the UNSC with over 40 years of experience.</h3>
+          Born in 2511, John was an exceptionally fit child. When he was only six, he as well as many other capable kids were kidnapped by Dr. Cathrine Halsey as a candidate for the then upcoming Spartan-II program. He as well as the other candidates (kids) grew to only vaguely remember their families and homes since then. He went through many physical and mental trials and tribulations throughout his early years of training in the Spartan program. In the end, he was one of a small number of candidates that prevailed from the genetic augmentations, growing into the war hero we see him as today. 
+        </div>
+          <div class="col-lg">
+            <img height="330px" src="https://media4.giphy.com/media/cI9n1FkX6YLX1Z3ERA/giphy.gif?cid=ecf05e47qt56hgkrsflp7lmwb4ju4zmp2244p0vnt0rfwh05&rid=giphy.gif&ct=g" alt="Chief creating an exit to the space debris field.">
+            <h3>What's so special about him?</h3>
+            I'm glad you asked. He served in the UNSC for over 40 years, gaining accomodations and honor through initially going on top secret and sometimes near suicidal missions around stopping human insurrection forces. Many of which were only fit for a super soldier like him. In early 2525 however, humanity encountered the alien race known as the Covenant after a human freighter dropped out of slipspace next to a covenant ship and was then destroyed by it. This event would spark a galaxy-wide war between humanity and the Covenant for the next 28 years. Despite the Covenant's higher, more sophisticated technology and weaponry, a big reason as to why we are all still alive is because of Master Chief. If it was not for him, the Covenant would have fired Installation 04 in an effort to embark on their religious "Great Journey" and would have mistakenly wiped out not only themselves but also humanity and every sentient being in the galaxy. 
+          </div>
+          <div class="col-lg">
+            <img height="700px" src="https://www.nawpic.com/media/2020/halo-infinite-nawpic.jpg" alt="Still image of the Chief mid-fire.">
+            <h3>Take a moment to bask in his glory, his feats and his iconic armor.</h3>
+          
+            <img height="700px" src="https://pbs.twimg.com/media/D9TuZASXUAYEFqo.jpg:large" alt="Master Chief staring down at Zeta Halo.">
+          </div>
+      </div>
+  </div>
+
+    <script src="node-modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

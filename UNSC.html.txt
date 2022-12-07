@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+      div{
+          border-style: solid;
+          border-color: black;
+          padding: 5px;
+          margin: 5px;
+      }
+  </style>
+</head>
+<body class="container"> 
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Master Chief</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutthemasterchief.html">About The Master Chief</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="requestfurtherinformation.html">Request Further Information</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mjolnir.html">Mjolnir</a></li>
+                  <li><a class="dropdown-item" href="cortana.html">Cortana</a></li>
+                  <li><a class="dropdown-item" href="UNSC.html">UNSC</a></li>
+                  <li><a class="dropdown-item" href="FormTest.html">Form Test</a></li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <img height="700px" src="https://static.wikia.nocookie.net/civilization-versus/images/1/10/Pq9qXGT.png/revision/latest?cb=20160125171624" alt="UNSC Insignia.">
+                <h3>As of 2560, the UNSC continues to be the military and naval force representing humanity from Earth and all of her outer colonies. </h3>
+              </div>
+            <div class="col-md">
+              <img height="300px" src="https://media0.giphy.com/media/8lDJCVQt3HHRI8zhqV/giphy.gif?cid=ecf05e477x88neszmewlcbb3ssi5brhvbciduw1317um0jme&rid=giphy.gif&ct=g" alt="Sergeant Johnson and the Chief acknowledging eachothers commands.">
+              <h3>The calm before the storm.</h3>
+              Here we can see Sergeant Johnson and Master Chief acknowledging eachother on their upcoming mission to drop into Delta Halo from the UNSC Frigate In Amber Clad; Circa 2552.
+            </div>
+            <div class="col-md">
+              <img height="300px" src="https://static.wikia.nocookie.net/halo/images/d/d5/HWF_Art-InfinityEscalationRefit.jpg/revision/latest?cb=20170919002524" alt="UNSC Navy in orbit.">
+               <h3>A ship contruction yard.</h3>
+                At this point, what your seeing here is part of a soon to be formidable addition to the UNSC fleet curated from many years of advancements and research in the UNSC's fight against the Covenant and Forerunners. Below it is a space elevator to bring items to and from the ship from the surface. On the left, you can see a Halcyon class cruiser, the same class of ship as The Pillar of Autumn going through construction as well.</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="node-modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

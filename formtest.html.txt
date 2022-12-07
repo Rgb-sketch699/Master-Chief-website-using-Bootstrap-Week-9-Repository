@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div{
+            border-style: solid;
+            border-color: black;
+            padding: 3px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body class="container"> 
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Master Chief</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <a class="nav-link" href="aboutthemasterchief.html">About The Master Chief</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="requestfurtherinformation.html">Request Further Information</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mjolnir.html">Mjolnir</a></li>
+                  <li><a class="dropdown-item" href="cortana.html">Cortana</a></li>
+                  <li><a class="dropdown-item" href="UNSC.html">UNSC</a></li>
+                  <li><a class="dropdown-item" href="FormTest.html">Form Test</a></li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                Content
+            </div>
+            <div class="col-md">
+              Content
+            </div>
+            <div class="col-md-4">
+              Content
+            </div>
+            <div class="col-lg">
+              Content
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg">
+                Content
+            </div>
+            <div class="col-lg">
+                Content
+            </div>
+            <div class="col-lg">
+                Content
+            </div>
+            <div class="col-sm">
+                Content
+            </div>
+            <div class="col-sm">
+                Content
+            </div>
+            <div class="col-sm">
+                Content
+            </div>
+        </div>
+    </div>
+
+      <script src="node-modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

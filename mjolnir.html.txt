@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+      div{
+          border-style: solid;
+          border-color: black;
+          padding: 5px;
+          margin: 5px;
+      }
+  </style>
+</head>
+<body class="container"> 
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Master Chief</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutthemasterchief.html">About The Master Chief</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="requestfurtherinformation.html">Request Further Information</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mjolnir.html">Mjolnir</a></li>
+                  <li><a class="dropdown-item" href="cortana.html">Cortana</a></li>
+                  <li><a class="dropdown-item" href="UNSC.html">UNSC</a></li>
+                  <li><a class="dropdown-item" href="FormTest.html">Form Test</a></li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-lg">
+              <img height="700px" src="https://media0.giphy.com/media/b4ab9TBk9Ornvrt9W8/giphy.gif?cid=790b7611e70ab6e0820316d328e1bde72aac32ba700d94de&rid=giphy.gif&ct=g" alt="Mjolnir Exo Suit completing creation.">
+              <h3>A walking tank.</h3>
+              The armor Master Chief uses is called the MJOLNIR Powered Assault Armor System; or simply Mjolnir. This armor is an extension of the Chief's body through the use of a technologically advanced exoskeleton which is designed to not only protect him with thick titanium metal and a regenerative shield from head to toe but to also allow for maintained agility and reflexes while in it. This enables the Chief to be a formidabble foe against any Covenant force that he comes into contact with. While powerful, only genetically augmented super soldiers like Chief and other Spartan-II's can wear it. The armor alone weighs over 1000 lbs, making it so that any non-augmented human inside will be crushed to death if trying to wear it. 
+              <h5>Fun fact:</h5>
+              At one point during testing, a marine was told to go inside of it to see if he could move around in it. He was told to move his arm which sounded simple but the small motion he performed to move his arm caused his entire arm to sever from the rest of his body in an instant. This is because the way a Spartan percieves their surroundings is much quicker than a non-augmented human. Only Spartans can handle how the suit moves.
+            </div>
+        </div>
+    </div>
+
+
+    <script src="node-modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

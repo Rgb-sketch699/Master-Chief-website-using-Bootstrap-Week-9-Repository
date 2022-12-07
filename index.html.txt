@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div{
+            border-style: solid;
+            border-color: black;
+            padding: 3px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body class="container"> 
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Master Chief</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <a class="nav-link" href="aboutthemasterchief.html">About The Master Chief</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="requestfurtherinformation.html">Request Further Information</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mjolnir.html">Mjolnir</a></li>
+                  <li><a class="dropdown-item" href="cortana.html">Cortana</a></li>
+                  <li><a class="dropdown-item" href="UNSC.html">UNSC</a></li>
+                  <li><a class="dropdown-item" href="FormTest.html">Form Test</a></li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class=container-fluid>
+        <div class="row">
+            <div class="col-sm">
+                <h1>The Man, the Myth, the Legend himself, Master Chief.</h1>
+            </div>
+        </div>
+    </div>  
+
+    <div class="container">
+      <div class="row">
+          <div class="col-lg">
+            <img height="330px" src="https://assets.reedpopcdn.com/digitalfoundry-2021-halo-combat-evolved-season-7-master-chief-collection-1622735120728.jpg/BROK/thumbnail/1600x900/quality/100/digitalfoundry-2021-halo-combat-evolved-season-7-master-chief-collection-1622735120728.jpg" alt="Halo Combat Evolved Master Chief.">
+          </div>
+          <div class="col-lg">
+            <img height="330px" src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/63c861997b3a6f7bbb443e4448f150e8.jpg" alt="Halo 2 Master Chief.">
+          </div>
+          <div class="col-lg">
+            <img height="330px" src="https://twistedvoxel.com/wp-content/uploads/2021/02/halo-infinite-fan-art-2.jpeg" alt="Halo 3 Master Chief.">
+          </div>
+          <div class="col-lg">
+            <img height="330px" src="https://assets1.ignimgs.com/2020/07/22/halo-infinite-box-art-blogroll-1595423634469_160w.jpg?width=1280" alt="Halo Infinite Master Chief.">
+          </div>
+      </div>
+  </div>
+
+
+
+    <script src="node-modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+      div{
+          border-style: solid;
+          border-color: black;
+          padding: 5px;
+          margin: 5px;
+      }
+  </style>
+</head>
+<body class="container"> 
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Master Chief</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutthemasterchief.html">About The Master Chief</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="requestfurtherinformation.html">Request Further Information</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mjolnir.html">Mjolnir</a></li>
+                  <li><a class="dropdown-item" href="cortana.html">Cortana</a></li>
+                  <li><a class="dropdown-item" href="UNSC.html">UNSC</a></li>
+                  <li><a class="dropdown-item" href="FormTest.html">Form Test</a></li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-lg">
+              <img height="700px" src="https://www.gamespot.com/a/uploads/original/1587/15875866/3913985-11-30-2021_12-55-52_pm-whfucykm.png" alt="Master Chief holding The Weapon.">
+              <h3>Master Chief sports an AI to aid him in battle. It is stored onto this chip which he can put into the back of his helmet. His AI; Cortana would aid him in combat by increasing his reaction time and awareness to his surroundings. She could even open forerunner doors on Halo Installations and grant useful information on enemies and where he needs to head to next.</h3>
+              This particular AI is not exactly Cortana. It is merely a direct copy of Cortana created for the sole purpose of hunting the original Cortana down and wiping her out of existence after she went rampant and tried to enact armagheddon on a galactic scale using forerunner guardians and the AI's of human colonies.
+              <img height="520px" src="https://64.media.tumblr.com/f3f3f65c208f288682e9e6376b87b102/tumblr_pa5qxsqcUD1t4wjzko2_r1_540.gifv" alt="Master Chief inserting his AI chip.">
+            </div>
+            <div class="col-lg">
+              <img height="700px" src="https://wpassets.halowaypoint.com/wp-content/2022/05/Poetry-3.jpg" alt="Cortana as dust and echoes of the past.">
+              <h3>Dust and Echoes</h3>
+              Now THIS is Cortana. Or what's left of her after her deletion. She doesn't exist in real time anymore, this is merely a memory. A physical manifestation of a memory found by Master Chief on Zeta Halo.
+            </div>
+            <div class="col-lg">
+              <img height="700px" src="https://wallpaperaccess.com/full/50047.png" alt="The destruction of Halo ring, Instllation 04B.">
+              <h3>We'll make it.</h3>
+              Master Chief and Cortana on the UNSC ship, Forward Unto Dawn escaping the premature firing and resulting destruction of Installation 04B. Barely escaping with their lives and the Chief reassuring Cortana, saying "We'll make it." before entering slipspace and being presumed mia when their ship severs in half with one half of the ship making it back to earth. The other half being stuck in deep space with the Chief and Cortana on it.
+            </div>
+        </div>
+    </div>
+
+
+      
+    <script src="node-modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
